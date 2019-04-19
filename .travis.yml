@@ -15,3 +15,6 @@ deploy:
   on:
   repo: Cody-Price/BYOB
   skip_cleanup: true
+scripts:
+  start: node server.js
+  test: NODE_ENV=test jest --exit
